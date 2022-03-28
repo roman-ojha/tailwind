@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i Topic_Wise/04_Margin_Padding_and_Border/src/styles.css -o Topic_Wise/04_Margin_Padding_and_Border/public/styles.css --watch"
+    "build-css": "tailwindcss -i Topic_Wise/06_Custom_Fonts/src/styles.css -o Topic_Wise/06_Custom_Fonts/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",

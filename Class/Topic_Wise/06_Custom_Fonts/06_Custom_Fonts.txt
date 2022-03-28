@@ -1,0 +1,10 @@
+*) Custom Fonts:
+    -> tailwind comes with the different fonts as standard, 
+    -> you can see that on default config file 
+    -> if we want to use our own custom font then we have to extend the theme in our own tailwind config file
+
+    -> first get the link for the font available and past it into 'src/styles.css' file
+    -> after importing font link we can now reference that inside our tailwind config file
+        ->  fontFamily: {
+                    body: ["Nunito", "sans-serif"],
+                },
