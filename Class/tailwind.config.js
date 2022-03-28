@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./Topic_Wise/03_Fonts_and_Colors/public/**/*.{html,js}"],
+  content: ["./Topic_Wise/04_Margin_Padding_and_Border/public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
