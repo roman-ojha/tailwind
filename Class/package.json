@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i Topic_Wise/06_Custom_Fonts/src/styles.css -o Topic_Wise/06_Custom_Fonts/public/styles.css --watch"
+    "build-css": "tailwindcss -i Topic_Wise/07_Using_Flexbox/src/styles.css -o Topic_Wise/07_Using_Flexbox/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",

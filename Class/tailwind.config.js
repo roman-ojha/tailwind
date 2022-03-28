@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./Topic_Wise/06_Custom_Fonts/public/**/*.{html,js}"],
+  content: ["./Topic_Wise/07_Using_Flexbox/public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
