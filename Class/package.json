@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i Topic_Wise/01_Intro_and_Setup/src/styles.css -o Topic_Wise/01_Intro_and_Setup/public/styles.css --watch"
+    "build-css": "tailwindcss -i Topic_Wise/02_Html_Template/src/styles.css -o Topic_Wise/02_Html_Template/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
