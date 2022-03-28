@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss -i Topic_Wise/01_Intro_and_Setup/src/styles.css -o Topic_Wise/01_Intro_and_Setup/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",

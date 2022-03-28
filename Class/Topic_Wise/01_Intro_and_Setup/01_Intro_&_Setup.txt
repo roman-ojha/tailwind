@@ -1,0 +1,40 @@
+*) What is Tailwind CSS?
+    -> CSS framework made up of utility classes
+    -> Much lower-level then bootstrap,Materialize etc..
+    -> Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override
+    -> So, we make our own design based on low level utility classes
+
+*) Setup:
+    -> Install tailwind using npm(node package manager)
+    -> on Project directory:
+        -> npm init -y
+        -> npm i tailwindcss
+
+
+*) how does tailwind work?
+    -> when we will use tailwind we create source file where we import all of the tailwind course styles and functionality
+    -> and we can also write our own CSS if we want to inside this file using tailwind feature and syntax as well
+    -> then we will use tailwind to process that source file into a vanilla CSS output file at a Build time with all of the file CSS rules inside it
+    -> so, when every time we make change on source css file we have to make tailwind script to process that into a new output css file
+
+*) Project overview
+    -> so let's make our source folder and public folder
+    -> source folder will have all source file
+    -> public folder is where our final output CSS is going to go after tailwind had processed it
+    -> So first create 'style.css' file on 'src' folder and past :
+            ->  @tailwind base;
+                @tailwind components;
+                @tailwind utilities;
+    -> then we will make script on package.json to build tailwind css:
+            -> "scripts": {
+    "build-css": "tailwindcss -i <directory_where_src_file_exist> -o <directory_where_final_css_file_goes> --watch"
+  },
+    -> then run:
+        -> npm run build-css
+    -> so when  we will add some css code on 'src/styles.css' file tailwind reprocess that css and create the build css file 
+    -> But, on most cases we don't usually write css code on 'src/style.css' file we will use html utility classes
+
+->https://tailwindcss.com/
+    -> go to https://tailwindcss.com/docs/installation/play-cdn
+    -> and copy and past on index.html:
+        -> <script src="https://cdn.tailwindcss.com"></script>
