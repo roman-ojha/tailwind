@@ -1,0 +1,5 @@
+-> Tailwind provide us a lot of utility classes out or the box 
+    -> https://tailwindcss.com/docs/font-size
+    -> https://tailwindcss.com/docs/customizing-colors#default-color-palette
+
+-> NOTE: please check the documentation of all the class available to add specific style

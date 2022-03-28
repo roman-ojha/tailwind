@@ -1,0 +1,26 @@
+-> npx tailwindcss init --full
+    -> --full = for all of the default value provided by tailwind
+-> then it will create a new file called 'tailwind.config.js' file
+    -> which contain all of the value related to the classes
+-> so, we can change the value of classes that is provided by tailwind and also we can create our own property
+    -> and if we will add new property that we again have to build the source file
+    -> but to change value in default config is not recommended
+    -> instead we should create a blank config file to extend the default rules that way we're not altering the core values and it's easier to see which extra value we've added ourselves as well
+    -> so now we will change the name of default config file to 'tailwind-default.config.js'
+    -> now we will create new blank config file using:
+        -> npx tailwindcss init
+
+-> after adding blank config file now we can extend the default value with new one
+    -> now you can extend the property value:
+        -> extend: {
+            colors: {
+                primary: "#FF6353",
+                secondary: {
+                100: "#E2E2D5",
+                200: "#888883",
+                },
+            },
+            },
+        -> so when we want to use in to html we have to use it like this now:
+            -> <a href="#" class="text-secondary-100">Log in</a>
+            -> <div class="bg-secondary-100 text-primary">Load more</div>

@@ -33,6 +33,10 @@
         -> npm run build-css
     -> so when  we will add some css code on 'src/styles.css' file tailwind reprocess that css and create the build css file 
     -> But, on most cases we don't usually write css code on 'src/style.css' file we will use html utility classes
+    -> on the project directory run:
+        -> npx tailwindcss init
+            -> this will initialize the new blank 'tailwind.config.js' where for the new update we have to add 
+                -> content: ["<path_of_html_template_and_javascript_component>/**/*.{html,js}"],
 
 ->https://tailwindcss.com/
     -> go to https://tailwindcss.com/docs/installation/play-cdn

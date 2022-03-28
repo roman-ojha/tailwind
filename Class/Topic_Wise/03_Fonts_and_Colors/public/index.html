@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-gray-600">
+    <!-- to apply color to text we have to use 'text' and then '<default_color_provided_by_tailwind_or_extended_color>' -->
+    <div>
+      <div>
+        <nav>
+          <div>
+            <h1 class="font-bold uppercase">
+              <!-- to make text on uppercase we can use 'uppercase' class -->
+              <a href="/">Food Ninja</a>
+            </h1>
+          </div>
+          <ul>
+            <li class="text-gray-700 font-bold">
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <main>
+        <div>
+          <a href="#">Log in</a>
+          <a href="#">Sign up</a>
+        </div>
+
+        <header>
+          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+          <!-- to resize the font we can use class like: text-lg, text-xl, text-6xl-->
+          <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        </header>
+
+        <div>
+          <h4 class="font-bold">Latest Recipes</h4>
+          <!-- to make change the style of the font we can use: font-<style>, EX: font-bold -->
+          <div>
+            <!-- cards go here -->
+            <div>
+              <img src="img/stew.jpg" alt="stew" />
+              <div>
+                <span>5 Bean Chili Stew</span>
+                <span>Recipe by Mario</span>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="font-bold">Most Popular</h4>
+
+          <div>
+            <!-- cards go here -->
+          </div>
+        </div>
+
+        <div>
+          <div>Load more</div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
