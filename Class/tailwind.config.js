@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./Topic_Wise/14_Icons/public/**/*.{html,js}"],
+  content: ["./Topic_Wise/15_Hover_Effect/public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {

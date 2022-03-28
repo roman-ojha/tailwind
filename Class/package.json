@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i Topic_Wise/14_Icons/src/styles.css -o Topic_Wise/14_Icons/public/styles.css --watch"
+    "build-css": "tailwindcss -i Topic_Wise/15_Hover_Effect/src/styles.css -o Topic_Wise/15_Hover_Effect/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
