@@ -1,0 +1,2 @@
+-> this class doesn't contain all of the utility class for that we have to go to tailwind css official documentation
+-> https://tailwindcss.com/docs/installation
