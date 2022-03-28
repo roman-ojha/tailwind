@@ -1,0 +1,12 @@
+-> https://tailwindcss.com/docs/responsive-design
+*) to make responsive we just prefix our tailwind classes with responsive classes and then that classes would only apply to that screen size and up
+    -> EX:
+        -> theme:{
+            screens:{
+                'md':'768',
+            }
+        }
+        if we prefix classes with: 'md' it means that we are just applying that class on that particular size
+        -> <div class="bg-green-500 md:bg-red-500 lg:bg-green-500"></div>
+
+-> 
