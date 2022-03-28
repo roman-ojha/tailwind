@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i Topic_Wise/09_Desing_Cards/src/styles.css -o Topic_Wise/09_Desing_Cards/public/styles.css --watch"
+    "build-css": "tailwindcss -i Topic_Wise/10_Design_Badges/src/styles.css -o Topic_Wise/10_Design_Badges/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",

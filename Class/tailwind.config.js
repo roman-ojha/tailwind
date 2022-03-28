@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./Topic_Wise/09_Desing_Cards/public/**/*.{html,js}"],
+  content: ["./Topic_Wise/10_Design_Badges/public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
