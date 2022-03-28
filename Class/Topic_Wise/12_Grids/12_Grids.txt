@@ -1,0 +1,12 @@
+-> if we have to make a multiple element of the same design at that time we have to use same class for multiple element and if we want to change one class of element then we have to change to all element which need the same design
+-> so, to solve that problem we need to extract these classes to external selector
+-> so, we have to make class selector in 'src/styles.css' and use @apply directive like:
+    -> .card {
+            @apply bg-white rounded overflow-hidden shadow-md relative;
+        }
+    -> .badge {
+        @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
+        }
+
+    -> now you can just apply 'card' or 'badge' class to those element where it is needed
+

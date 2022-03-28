@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./Topic_Wise/11_@apply_Directive/public/**/*.{html,js}"],
+  content: ["./Topic_Wise/12_Grids/public/**/*.{html,js}"],
   theme: {
     extend: {
       colors: {

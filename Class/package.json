@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i Topic_Wise/11_@apply_Directive/src/styles.css -o Topic_Wise/11_@apply_Directive/public/styles.css --watch"
+    "build-css": "tailwindcss -i Topic_Wise/12_Grids/src/styles.css -o Topic_Wise/12_Grids/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
